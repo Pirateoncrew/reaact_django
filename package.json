@@ -1,0 +1,19 @@
+{
+  "name": "manegment_sys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd react_app && npm run start",
+    "server": "cd system_server &&  django-admin startapp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "react-redux": "^7.2.4",
+    "redux-logger": "^3.0.6"
+  }
+}
